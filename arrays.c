@@ -2,14 +2,13 @@
 #include <string.h>
 
 int main(){
-
-    int numbers[] = {10, 20, 30, 40};
+    int age[] = {10, 20, 30};
     char grade[] = {'A', 'B', 'C', 'D'};
 
-    for(int i = 0; i < 5; i++){
-        printf("%c ", grade[i]);
-
+    for (int i = 0; i < 5; i++){
+        printf("%c", grade[i]);
     }
-    printf("\n%d", numbers[0:]);
+
+    printf("%d", age[0]);
     return 0;
 }
